@@ -1,0 +1,90 @@
+body {
+  background-color: #F1FBFF;
+  margin: 50px 0;
+  font-family: 'Ubuntu', sans-serif;
+  color: #9BAEBC;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 60px 20px;
+  width: 750px;
+  border-radius: 3px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 120px;
+}
+
+h1 {
+  color: #00C6AF;
+}
+
+h2 {
+  color: #268579;
+}
+
+#follow {
+  color: #344B47;
+}
+
+#summary {
+  font-size: 1.3rem;
+}
+
+li {
+  list-style: none;
+}
+
+#skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* flex items */
+.skill {
+  min-width: 125px;
+  margin: 10px 0;
+}
+
+.skill-img {
+  height: 80px;
+}
+
+.skill-icon {
+  text-decoration: none;
+  color: #00C6AF;
+  font-size: 6rem;
+}
+
+#social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.social-icon {
+  text-decoration: none;
+  color: #9BAEBC;
+  font-size: 2rem;
+}
+
+
+@media (max-width: 850px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 250px;
+  }
+}
